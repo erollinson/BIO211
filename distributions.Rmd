@@ -1,0 +1,11 @@
+---
+title: "Distributions"
+author: "Emily J. Rollinson"
+date: "September 21, 2015"
+output: html_document
+---
+
+Display the Student's t distribution
+```{r}
+plot(function(x) dt(x,df=3), -3, 3, yaxs ="i")
+
